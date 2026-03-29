@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pharma Insight Hub — 製薬・臨床開発の最新知識を毎日自動配信</title>
+<meta name="description" content="製薬・臨床開発に特化した6つの専門ブログを集約したポータルサイト。CDISC、GCP、FDA、臨床統計、PV、製薬DXの最新情報を毎日自動配信。">
+<meta property="og:title" content="Pharma Insight Hub — 製薬・臨床開発の最新知識を毎日自動配信">
+<meta property="og:description" content="製薬・臨床開発に特化した6つの専門ブログを集約。CDISC、GCP、FDA、臨床統計、PV、製薬DXの最新情報を毎日自動配信中。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://musclelove-777.github.io/pharma-insight-hub/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pharma Insight Hub — 製薬・臨床開発の最新知識を毎日自動配信">
+<meta name="twitter:description" content="製薬・臨床開発に特化した6つの専門ブログを集約。最新情報を毎日自動配信中。">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg-primary:#091a2a;--bg-secondary:#0f2b3d;--bg-card:#112d42;--bg-card-hover:#163a52;--text-primary:#e8f4f8;--text-secondary:#8bb8cc;--text-muted:#5a8a9e;--border-color:#1a4a5e;--glow-color:rgba(26,107,138,0.3);--primary:#0f4c81;--accent:#1a6b8a}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans JP',sans-serif;background:linear-gradient(135deg,var(--bg-primary) 0%,var(--bg-secondary) 50%,var(--bg-primary) 100%);color:var(--text-primary);min-height:100vh;overflow-x:hidden;line-height:1.6}
+
+/* Particle canvas */
+#particles{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none}
+
+/* Main container */
+.container{max-width:1200px;margin:0 auto;padding:0 20px;position:relative;z-index:1}
+
+/* Header */
+.header{text-align:center;padding:80px 0 40px;position:relative}
+.header::after{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:200px;height:2px;background:linear-gradient(90deg,transparent,var(--accent),transparent)}
+.header h1{font-size:clamp(2.5rem,6vw,4.5rem);font-weight:900;background:linear-gradient(135deg,#0ea5e9 0%,#1a6b8a 30%,#059669 60%,#0f4c81 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-0.02em;margin-bottom:16px;animation:gradientShift 8s ease infinite;background-size:200% 200%}
+@keyframes gradientShift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.header .subtitle{font-size:clamp(1rem,2.5vw,1.25rem);color:var(--text-secondary);max-width:600px;margin:0 auto;font-weight:400}
+.header .badge{display:inline-block;margin-top:20px;padding:6px 16px;border-radius:100px;background:rgba(26,107,138,0.2);border:1px solid rgba(26,107,138,0.4);color:#4dd0e1;font-size:0.85rem;font-weight:500;animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(26,107,138,0.2)}50%{box-shadow:0 0 20px 4px rgba(26,107,138,0.15)}}
+
+/* Stats bar */
+.stats{display:flex;justify-content:center;gap:40px;padding:30px 0;margin-bottom:20px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-number{font-size:2rem;font-weight:800;background:linear-gradient(135deg,#0ea5e9,#059669);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-label{font-size:0.85rem;color:var(--text-muted);margin-top:2px}
+
+/* Hero description */
+.hero-desc{text-align:center;max-width:700px;margin:0 auto 50px;padding:24px 30px;border-radius:16px;background:rgba(26,107,138,0.08);border:1px solid rgba(26,107,138,0.15);color:var(--text-secondary);font-size:0.95rem;line-height:1.8}
+
+/* Blog cards grid */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px;margin-bottom:50px}
+.card{position:relative;padding:28px 24px;border-radius:16px;background:var(--bg-card);border:1px solid var(--border-color);text-decoration:none;color:inherit;transition:all 0.35s cubic-bezier(0.4,0,0.2,1);overflow:hidden;display:flex;flex-direction:column;cursor:pointer}
+.card::before{content:'';position:absolute;top:0;left:0;width:4px;height:100%;border-radius:4px 0 0 4px;transition:width 0.3s}
+.card::after{content:'';position:absolute;inset:0;border-radius:16px;opacity:0;transition:opacity 0.3s;pointer-events:none}
+.card:hover{transform:translateY(-4px) scale(1.02);background:var(--bg-card-hover);border-color:transparent}
+.card:hover::before{width:6px}
+.card:hover::after{opacity:1}
+.card-icon{font-size:2rem;margin-bottom:10px;padding-left:14px}
+.card-title{font-size:1.15rem;font-weight:700;margin-bottom:6px;padding-left:14px;transition:color 0.3s}
+.card-desc{font-size:0.85rem;color:var(--text-secondary);padding-left:14px;margin-bottom:8px;line-height:1.5}
+.card-url{font-size:0.75rem;color:var(--text-muted);padding-left:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transition:color 0.3s}
+.card:hover .card-url{color:var(--text-secondary)}
+.card-arrow{position:absolute;right:20px;top:50%;transform:translateY(-50%) translateX(-5px);font-size:1.2rem;color:var(--text-muted);opacity:0;transition:all 0.3s}
+.card:hover .card-arrow{opacity:1;transform:translateY(-50%) translateX(0)}
+.card-tag{display:inline-block;padding:2px 10px;border-radius:100px;font-size:0.7rem;font-weight:600;margin-left:14px;margin-top:auto;width:fit-content}
+
+/* Footer */
+.footer{text-align:center;padding:50px 0 40px;border-top:1px solid var(--border-color);margin-top:30px}
+.footer-main{font-size:0.95rem;color:var(--text-secondary);margin-bottom:8px}
+.footer-main span{background:linear-gradient(135deg,#0ea5e9,#059669);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-weight:600}
+.footer-copy{font-size:0.8rem;color:var(--text-muted)}
+
+/* Scroll animation */
+.fade-in{opacity:0;transform:translateY(20px);transition:opacity 0.6s,transform 0.6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+/* Responsive */
+@media(max-width:640px){
+  .header{padding:50px 0 30px}
+  .stats{gap:24px}
+  .stat-number{font-size:1.5rem}
+  .cards-grid{grid-template-columns:1fr}
+  .hero-desc{padding:18px 16px}
+}
+</style>
+</head>
+<body>
+<canvas id="particles"></canvas>
+
+<div class="container">
+
+  <!-- Header -->
+  <header class="header fade-in">
+    <h1>Pharma Insight Hub</h1>
+    <p class="subtitle">製薬・臨床開発の最新知識を毎日自動配信</p>
+    <div class="badge">&#x1F9EA; 全サイト自動更新中</div>
+  </header>
+
+  <!-- Stats -->
+  <div class="stats fade-in">
+    <div class="stat"><div class="stat-number">6</div><div class="stat-label">ブログ数</div></div>
+    <div class="stat"><div class="stat-number">6</div><div class="stat-label">カテゴリ</div></div>
+    <div class="stat"><div class="stat-number">24/7</div><div class="stat-label">自動配信</div></div>
+  </div>
+
+  <!-- Hero description -->
+  <div class="hero-desc fade-in">
+    CDISC標準規格、GCP実務、FDA規制動向、臨床統計、ファーマコビジランス、製薬DX &#8212; 製薬・臨床開発のプロフェッショナルに必要な最新知識を、6つの専門ブログで毎日自動配信しています。
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="cards-grid">
+
+    <!-- CDISC Standards Navigator -->
+    <a href="https://musclelove-777.github.io/cdisc-navigator/" target="_blank" rel="noopener" class="card fade-in" data-color="#0ea5e9">
+      <div class="card-icon">&#x1F4CA;</div>
+      <span class="card-title">CDISC Standards Navigator</span>
+      <span class="card-desc">SDTM・ADaM・Define-XMLなどCDISC標準規格の実践ガイド</span>
+      <span class="card-url">musclelove-777.github.io/cdisc-navigator</span>
+      <span class="card-tag" style="background:rgba(14,165,233,0.15);color:#0ea5e9">CDISC</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+    <!-- GCP実務ナビ -->
+    <a href="https://musclelove-777.github.io/gcp-navi/" target="_blank" rel="noopener" class="card fade-in" data-color="#059669">
+      <div class="card-icon">&#x1F4CB;</div>
+      <span class="card-title">GCP実務ナビ</span>
+      <span class="card-desc">医薬品の臨床試験の実施基準（GCP）に関する実務情報</span>
+      <span class="card-url">musclelove-777.github.io/gcp-navi</span>
+      <span class="card-tag" style="background:rgba(5,150,105,0.15);color:#059669">GCP</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+    <!-- FDA規制インサイト -->
+    <a href="https://musclelove-777.github.io/fda-insight/" target="_blank" rel="noopener" class="card fade-in" data-color="#dc2626">
+      <div class="card-icon">&#x1F3DB;&#xFE0F;</div>
+      <span class="card-title">FDA規制インサイト</span>
+      <span class="card-desc">FDA規制動向・ガイダンス・承認プロセスの最新情報</span>
+      <span class="card-url">musclelove-777.github.io/fda-insight</span>
+      <span class="card-tag" style="background:rgba(220,38,38,0.15);color:#dc2626">FDA</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+    <!-- 臨床統計ラボ -->
+    <a href="https://musclelove-777.github.io/clinical-stats-lab/" target="_blank" rel="noopener" class="card fade-in" data-color="#7c3aed">
+      <div class="card-icon">&#x1F9EE;</div>
+      <span class="card-title">臨床統計ラボ</span>
+      <span class="card-desc">臨床試験の統計解析手法・SAS/Rプログラミングの実践知識</span>
+      <span class="card-url">musclelove-777.github.io/clinical-stats-lab</span>
+      <span class="card-tag" style="background:rgba(124,58,237,0.15);color:#7c3aed">統計</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+    <!-- ファーマコビジランス最前線 -->
+    <a href="https://musclelove-777.github.io/pv-frontline/" target="_blank" rel="noopener" class="card fade-in" data-color="#d97706">
+      <div class="card-icon">&#x1F6E1;&#xFE0F;</div>
+      <span class="card-title">ファーマコビジランス最前線</span>
+      <span class="card-desc">安全性情報管理・副作用報告・リスクマネジメントの最新動向</span>
+      <span class="card-url">musclelove-777.github.io/pv-frontline</span>
+      <span class="card-tag" style="background:rgba(217,119,6,0.15);color:#d97706">PV</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+    <!-- 製薬DXジャーナル -->
+    <a href="https://musclelove-777.github.io/pharma-dx-journal/" target="_blank" rel="noopener" class="card fade-in" data-color="#2563eb">
+      <div class="card-icon">&#x1F680;</div>
+      <span class="card-title">製薬DXジャーナル</span>
+      <span class="card-desc">AI創薬・デジタル治験・RWDなど製薬業界のDX最新トレンド</span>
+      <span class="card-url">musclelove-777.github.io/pharma-dx-journal</span>
+      <span class="card-tag" style="background:rgba(37,99,235,0.15);color:#2563eb">DX</span>
+      <span class="card-arrow">&#8594;</span>
+    </a>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer fade-in">
+    <p class="footer-main"><span>Powered by Automation</span> &#8212; 全サイト自動更新中</p>
+    <p class="footer-copy">&copy; 2026 Pharma Insight Hub. All rights reserved.</p>
+  </footer>
+
+</div>
+
+<script>
+// Particle animation
+(function(){
+  const canvas=document.getElementById('particles');
+  const ctx=canvas.getContext('2d');
+  let w,h,particles=[];
+  function resize(){w=canvas.width=window.innerWidth;h=canvas.height=window.innerHeight}
+  window.addEventListener('resize',resize);
+  resize();
+  class Particle{
+    constructor(){this.reset()}
+    reset(){this.x=Math.random()*w;this.y=Math.random()*h;this.size=Math.random()*2+0.5;this.speedX=(Math.random()-0.5)*0.3;this.speedY=(Math.random()-0.5)*0.3;this.opacity=Math.random()*0.4+0.1}
+    update(){this.x+=this.speedX;this.y+=this.speedY;if(this.x<0||this.x>w)this.speedX*=-1;if(this.y<0||this.y>h)this.speedY*=-1}
+    draw(){ctx.beginPath();ctx.arc(this.x,this.y,this.size,0,Math.PI*2);ctx.fillStyle=`rgba(26,107,138,${this.opacity})`;ctx.fill()}
+  }
+  const count=Math.min(80,Math.floor(w*h/15000));
+  for(let i=0;i<count;i++)particles.push(new Particle());
+  function animate(){
+    ctx.clearRect(0,0,w,h);
+    particles.forEach(p=>{p.update();p.draw()});
+    for(let i=0;i<particles.length;i++){
+      for(let j=i+1;j<particles.length;j++){
+        const dx=particles[i].x-particles[j].x;
+        const dy=particles[i].y-particles[j].y;
+        const dist=Math.sqrt(dx*dx+dy*dy);
+        if(dist<120){
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x,particles[i].y);
+          ctx.lineTo(particles[j].x,particles[j].y);
+          ctx.strokeStyle=`rgba(26,107,138,${0.08*(1-dist/120)})`;
+          ctx.lineWidth=0.5;
+          ctx.stroke();
+        }
+      }
+    }
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+
+// Apply card colors dynamically
+document.querySelectorAll('.card').forEach(card=>{
+  const color=card.dataset.color;
+  card.querySelector('.card-title').style.color=color;
+  const style=document.createElement('style');
+  const id='c'+Math.random().toString(36).slice(2,8);
+  card.classList.add(id);
+  style.textContent=`.${id}::before{background:${color}!important}.${id}::after{box-shadow:inset 0 0 0 1px ${color}40,0 0 30px ${color}15!important}`;
+  document.head.appendChild(style);
+});
+
+// Scroll reveal
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
