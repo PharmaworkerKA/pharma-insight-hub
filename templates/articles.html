@@ -14,6 +14,9 @@
     <div class="articles-grid">
       {% for article in all_articles %}
       <a href="{{ article.link }}" class="article-card" target="_blank" rel="noopener">
+        {% if article.eyecatch_url %}
+        <div style="background: url('{{ article.eyecatch_url }}') center/cover no-repeat; height: 180px; border-radius: 8px; margin-bottom: 12px;"></div>
+        {% endif %}
         <div class="article-meta">
           <span class="article-blog" style="background:{{ article.color }}">{{ article.blog_short }}</span>
           <span class="article-date">{{ article.date_str }}</span>

@@ -15,6 +15,7 @@ import requests
 from jinja2 import Environment, FileSystemLoader
 
 import config
+from eyecatch import get_eyecatch_url
 
 BASE_DIR = Path(__file__).parent
 TEMPLATE_DIR = BASE_DIR / "templates"
@@ -61,6 +62,13 @@ def fetch_articles():
                 if article["description"]:
                     import re
                     article["description"] = re.sub(r"<[^>]+>", "", article["description"])[:200]
+
+                article["eyecatch_url"] = get_eyecatch_url(
+                    blog_name=blog["name"],
+                    category=article.get("category", ""),
+                    keyword=article.get("title", ""),
+                    slug=article.get("link", ""),
+                )
 
                 all_articles.append(article)
 
