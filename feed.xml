@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PharmaPedia Japan</title>
+    <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
+    <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
+    <language>ja</language>
+    <lastBuildDate>Sat, 04 Apr 2026 05:56:05 +0900</lastBuildDate>
+    <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PMDA/FDA承認審査：臨床データ提出の規制要件を徹底解説</title>
+      <link>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</link>
+      <guid>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</guid>
+      <category>CDISC・データ標準</category>
+    </item>
+    <item>
+      <title>Cytokineticsの心臓病治療薬に学ぶ！FDA承認と新薬申請の全貌</title>
+      <link>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</link>
+      <guid>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</guid>
+      <category>FDA・薬事規制</category>
+    </item>
+    <item>
+      <title>デジタルバイオロジー×R言語：予測モデリングと時系列解析でライフサイエンスの新時代へ</title>
+      <link>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</link>
+      <guid>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</guid>
+      <category>臨床統計・解析</category>
+    </item>
+    <item>
+      <title>AIとPV最新技術：安全性監視・シグナル検出の未来</title>
+      <link>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</link>
+      <guid>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</guid>
+      <category>ファーマコビジランス</category>
+    </item>
+    <item>
+      <title>GAMP5 CSAで加速！製薬DXの新バリデーション戦略</title>
+      <link>https://musclelove-777.github.io/pharma-dx-journal/articles/gamp5-csa-pharma-dx-validation-strategy.html</link>
+      <guid>https://musclelove-777.github.io/pharma-dx-journal/articles/gamp5-csa-pharma-dx-validation-strategy.html</guid>
+      <category>製薬DX</category>
+    </item>
+    <item>
+      <title>AI創薬と生成AI最前線：日本の製薬DXを加速</title>
+      <link>https://musclelove-777.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai-latest-trends-jp.html</link>
+      <guid>https://musclelove-777.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai-latest-trends-jp.html</guid>
+      <category>製薬DX</category>
+    </item>
+    <item>
+      <title>「生成AI創薬」最前線：新薬開発を加速する秘訣</title>
+      <link>https://musclelove-777.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-trends.html</link>
+      <guid>https://musclelove-777.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-trends.html</guid>
+      <category>製薬DX</category>
+    </item>
+    <item>
+      <title>生成AI創薬最前線：新薬開発を加速する最新動向</title>
+      <link>https://musclelove-777.github.io/pharma-dx-journal/articles/ai.html</link>
+      <guid>https://musclelove-777.github.io/pharma-dx-journal/articles/ai.html</guid>
+      <category>製薬DX</category>
+    </item>
+  </channel>
+</rss>
