@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}記事一覧 | {{ site.name }}{% endblock %}
+{% block meta_description %}{{ site.name }}の全記事一覧。CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの専門記事を掲載。{% endblock %}
+{% block canonical %}{{ site.url }}/articles.html{% endblock %}
+{% block og_type %}website{% endblock %}
+
+{% block content %}
+<div class="container">
+  <section class="section" style="padding-top:100px">
+    <div class="section-header">
+      <h2 class="section-title">全記事一覧（{{ all_articles|length }}件）</h2>
+    </div>
+    <div class="articles-grid">
+      {% for article in all_articles %}
+      <a href="{{ article.link }}" class="article-card" target="_blank" rel="noopener">
+        <div class="article-meta">
+          <span class="article-blog" style="background:{{ article.color }}">{{ article.blog_short }}</span>
+          <span class="article-date">{{ article.date_str }}</span>
+        </div>
+        <h3>{{ article.title }}</h3>
+        {% if article.description %}
+        <p>{{ article.description }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    {% if all_articles|length == 0 %}
+    <div class="yt-placeholder">
+      <div class="icon">📝</div>
+      <h3>記事を準備中です</h3>
+      <p>各専門ブログから記事が配信され次第、ここに表示されます。</p>
+    </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

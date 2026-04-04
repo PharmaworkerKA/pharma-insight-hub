@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}{{ blog.category }} | {{ site.name }}{% endblock %}
+{% block meta_description %}{{ blog.description }}。{{ site.name }}が厳選した{{ blog.category }}の最新記事を掲載。{% endblock %}
+{% block canonical %}{{ site.url }}/category/{{ blog.short_name|lower }}.html{% endblock %}
+
+{% block jsonld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ blog.category }} | {{ site.name }}",
+  "description": "{{ blog.description }}",
+  "url": "{{ site.url }}/category/{{ blog.short_name|lower }}.html",
+  "isPartOf": {"@type": "WebSite", "name": "{{ site.name }}"}
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <section class="section" style="padding-top:100px">
+    <div class="section-header">
+      <h2 class="section-title">{{ blog.icon }} {{ blog.category }}</h2>
+      <a href="{{ blog.url }}" class="section-link" target="_blank">{{ blog.name }}を見る &rarr;</a>
+    </div>
+    <p style="color:var(--text2);margin-bottom:24px;font-size:0.95rem">{{ blog.description }}</p>
+    <div class="articles-grid">
+      {% for article in articles %}
+      <a href="{{ article.link }}" class="article-card" target="_blank" rel="noopener">
+        <div class="article-meta">
+          <span class="article-blog" style="background:{{ article.color }}">{{ article.blog_short }}</span>
+          <span class="article-date">{{ article.date_str }}</span>
+        </div>
+        <h3>{{ article.title }}</h3>
+        {% if article.description %}
+        <p>{{ article.description }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    {% if articles|length == 0 %}
+    <div class="yt-placeholder">
+      <div class="icon">{{ blog.icon }}</div>
+      <h3>{{ blog.category }}の記事を準備中です</h3>
+      <p>{{ blog.name }}から記事が配信され次第、ここに表示されます。</p>
+    </div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

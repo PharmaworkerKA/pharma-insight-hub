@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}{{ site.name }} | {{ site.tagline }}{% endblock %}</title>
+<meta name="description" content="{% block meta_description %}{{ site.description }}{% endblock %}">
+<meta name="keywords" content="製薬,臨床開発,CDISC,FDA,統計解析,ファーマコビジランス,DX,医薬品,GCP,治験">
+<link rel="canonical" href="{% block canonical %}{{ site.url }}{% endblock %}">
+
+<!-- OGP -->
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:title" content="{% block og_title %}{{ site.name }} | {{ site.tagline }}{% endblock %}">
+<meta property="og:description" content="{% block og_description %}{{ site.description }}{% endblock %}">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:url" content="{% block og_url %}{{ site.url }}{% endblock %}">
+<meta property="og:locale" content="ja_JP">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% block tw_title %}{{ site.name }}{% endblock %}">
+<meta name="twitter:description" content="{% block tw_description %}{{ site.description }}{% endblock %}">
+
+<!-- JSON-LD -->
+{% block jsonld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.name }}",
+  "alternateName": "ファーマペディア ジャパン",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "inLanguage": "ja",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}"
+  }
+}
+</script>
+{% endblock %}
+
+{% if site.ga_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
+{% endif %}
+
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0f1a;--bg2:#111827;--bg3:#1a2332;--bg-card:#1e293b;--bg-hover:#263347;
+  --text:#e2e8f0;--text2:#94a3b8;--text3:#64748b;--border:#2a3a4e;
+  --primary:#3b82f6;--primary-dark:#2563eb;--accent:#06b6d4;
+  --gradient:linear-gradient(135deg,#3b82f6 0%,#06b6d4 50%,#10b981 100%);
+  --shadow:0 4px 24px rgba(0,0,0,0.3);
+  --radius:12px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI','Noto Sans JP',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+
+/* Navigation */
+.nav{position:sticky;top:0;z-index:100;background:rgba(10,15,26,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 20px}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav-logo{font-size:1.3rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;text-decoration:none}
+.nav-logo span{font-size:0.75rem;font-weight:400;display:block;-webkit-text-fill-color:var(--text3);margin-top:-4px}
+.nav-links{display:flex;gap:8px;flex-wrap:wrap}
+.nav-links a{color:var(--text2);text-decoration:none;font-size:0.88rem;padding:6px 14px;border-radius:8px;transition:all 0.2s}
+.nav-links a:hover,.nav-links a.active{color:var(--text);background:var(--bg3)}
+
+/* Container */
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+
+/* Hero */
+.hero{text-align:center;padding:80px 20px 50px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:900;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:12px;letter-spacing:-0.02em}
+.hero p{font-size:clamp(1rem,2vw,1.2rem);color:var(--text2);max-width:650px;margin:0 auto 24px}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 20px;border-radius:50px;background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.25);color:var(--accent);font-size:0.85rem}
+.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:#10b981;animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
+
+/* Stats */
+.stats{display:flex;justify-content:center;gap:48px;padding:20px 0 40px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:2.2rem;font-weight:800;background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.stat-label{font-size:0.82rem;color:var(--text3);margin-top:2px}
+
+/* Section */
+.section{padding:40px 0}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.section-title{font-size:1.5rem;font-weight:700}
+.section-title::before{content:'';display:inline-block;width:4px;height:24px;background:var(--gradient);border-radius:2px;margin-right:12px;vertical-align:middle}
+.section-link{color:var(--primary);text-decoration:none;font-size:0.9rem}
+.section-link:hover{text-decoration:underline}
+
+/* Article Cards */
+.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
+.article-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-decoration:none;color:inherit;transition:all 0.25s;display:flex;flex-direction:column;position:relative;overflow:hidden}
+.article-card:hover{transform:translateY(-3px);background:var(--bg-hover);box-shadow:var(--shadow)}
+.article-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:var(--radius) var(--radius) 0 0}
+.article-meta{display:flex;align-items:center;gap:10px;margin-bottom:12px;font-size:0.82rem;flex-wrap:wrap}
+.article-blog{padding:3px 10px;border-radius:6px;font-weight:600;font-size:0.75rem;color:#fff}
+.article-date{color:var(--text3)}
+.article-card h3{font-size:1.05rem;font-weight:600;line-height:1.5;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.article-card p{color:var(--text2);font-size:0.88rem;line-height:1.6;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Category Cards */
+.categories-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.cat-card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:24px;text-decoration:none;color:inherit;transition:all 0.25s;text-align:center}
+.cat-card:hover{transform:translateY(-3px);background:var(--bg-hover);box-shadow:var(--shadow)}
+.cat-icon{font-size:2.5rem;margin-bottom:12px;display:block}
+.cat-card h3{font-size:1rem;font-weight:600;margin-bottom:6px}
+.cat-card p{color:var(--text2);font-size:0.82rem}
+.cat-count{display:inline-block;margin-top:10px;padding:3px 12px;border-radius:50px;background:rgba(59,130,246,0.12);color:var(--primary);font-size:0.78rem;font-weight:600}
+
+/* YouTube Section */
+.yt-placeholder{text-align:center;padding:60px 20px;background:var(--bg-card);border:1px dashed var(--border);border-radius:var(--radius)}
+.yt-placeholder .icon{font-size:3rem;margin-bottom:16px}
+.yt-placeholder h3{font-size:1.2rem;margin-bottom:8px}
+.yt-placeholder p{color:var(--text2);font-size:0.9rem}
+
+/* Footer */
+.footer{margin-top:60px;padding:40px 20px;border-top:1px solid var(--border);text-align:center}
+.footer-links{display:flex;justify-content:center;gap:24px;margin-bottom:16px;flex-wrap:wrap}
+.footer-links a{color:var(--text2);text-decoration:none;font-size:0.88rem}
+.footer-links a:hover{color:var(--text)}
+.footer-copy{color:var(--text3);font-size:0.82rem}
+
+/* Responsive */
+@media(max-width:768px){
+  .nav-links{display:none}
+  .articles-grid{grid-template-columns:1fr}
+  .categories-grid{grid-template-columns:repeat(2,1fr)}
+  .stats{gap:24px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="{{ site.url }}/" class="nav-logo">
+      PharmaPedia Japan
+      <span>製薬・臨床開発の総合メディア</span>
+    </a>
+    <div class="nav-links">
+      <a href="{{ site.url }}/" class="{% if page == 'index' %}active{% endif %}">ホーム</a>
+      <a href="{{ site.url }}/articles.html" class="{% if page == 'articles' %}active{% endif %}">記事一覧</a>
+      {% for blog in blogs %}
+      <a href="{{ site.url }}/category/{{ blog.short_name|lower }}.html" class="{% if page == blog.short_name|lower %}active{% endif %}">{{ blog.short_name }}</a>
+      {% endfor %}
+      <a href="{{ site.url }}/youtube.html" class="{% if page == 'youtube' %}active{% endif %}">YouTube</a>
+    </div>
+  </div>
+</nav>
+
+{% block content %}{% endblock %}
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <a href="{{ site.url }}/">ホーム</a>
+      <a href="{{ site.url }}/articles.html">記事一覧</a>
+      {% for blog in blogs %}
+      <a href="{{ blog.url }}" target="_blank">{{ blog.short_name }}</a>
+      {% endfor %}
+      <a href="{{ site.url }}/youtube.html">YouTube</a>
+    </div>
+    <p class="footer-copy">&copy; {{ year }} {{ site.name }}. 製薬・臨床開発の最新情報を毎日自動配信中。</p>
+  </div>
+</footer>
+
+</body>
+</html>

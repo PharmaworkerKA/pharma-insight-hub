@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}YouTube | {{ site.name }} - 製薬・臨床開発の動画メディア{% endblock %}
+{% block meta_description %}PharmaPedia JapanのYouTubeチャンネル。製薬・臨床開発のトピックを動画でわかりやすく解説。{% endblock %}
+{% block canonical %}{{ site.url }}/youtube.html{% endblock %}
+
+{% block content %}
+<div class="container">
+  <section class="section" style="padding-top:100px">
+    <div class="section-header">
+      <h2 class="section-title">YouTube チャンネル</h2>
+    </div>
+
+    <div class="yt-placeholder" style="margin-bottom:32px">
+      <div class="icon">🎬</div>
+      <h3>PharmaPedia Japan チャンネル 準備中</h3>
+      <p style="max-width:500px;margin:12px auto 0">
+        製薬・臨床開発の最新トピックを動画でわかりやすく解説するYouTubeチャンネルを準備しています。<br>
+        以下のようなコンテンツを予定しています。
+      </p>
+    </div>
+
+    <div class="categories-grid">
+      <div class="cat-card">
+        <span class="cat-icon">📊</span>
+        <h3>CDISC解説シリーズ</h3>
+        <p>SDTM・ADaMの基礎からPinnacle 21対応まで</p>
+      </div>
+      <div class="cat-card">
+        <span class="cat-icon">⚖️</span>
+        <h3>FDA規制ニュース</h3>
+        <p>最新のFDAガイダンス・承認情報を解説</p>
+      </div>
+      <div class="cat-card">
+        <span class="cat-icon">📈</span>
+        <h3>統計手法チュートリアル</h3>
+        <p>SAS/Rを使った臨床統計の実践テクニック</p>
+      </div>
+      <div class="cat-card">
+        <span class="cat-icon">🛡️</span>
+        <h3>PV実務ガイド</h3>
+        <p>安全性報告・シグナル検出の実務解説</p>
+      </div>
+      <div class="cat-card">
+        <span class="cat-icon">🤖</span>
+        <h3>製薬DX最前線</h3>
+        <p>AI創薬・DCT・デジタルバイオマーカー</p>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}
