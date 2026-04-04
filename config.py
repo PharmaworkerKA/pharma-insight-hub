@@ -30,6 +30,16 @@ BLOGS = [
         "color": "#2563eb",
     },
     {
+        "name": "GCP実務ナビ",
+        "short_name": "GCP",
+        "url": "https://pharmaworkerka.github.io/gcp-navi",
+        "feed_url": "https://pharmaworkerka.github.io/gcp-navi/feed.xml",
+        "description": "ICH-GCP E6(R3)・臨床試験実施基準の実務ノウハウ",
+        "category": "GCP・治験実務",
+        "icon": "🏥",
+        "color": "#0d9488",
+    },
+    {
         "name": "FDA規制インサイト",
         "short_name": "FDA",
         "url": "https://pharmaworkerka.github.io/fda-insight",
