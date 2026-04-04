@@ -9,7 +9,8 @@
     "blog_short": "CDISC",
     "category": "CDISC・データ標準",
     "color": "#2563eb",
-    "icon": "📊"
+    "icon": "📊",
+    "eyecatch_url": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "Cytokineticsの心臓病治療薬に学ぶ！FDA承認と新薬申請の全貌",
@@ -21,7 +22,8 @@
     "blog_short": "FDA",
     "category": "FDA・薬事規制",
     "color": "#dc2626",
-    "icon": "⚖️"
+    "icon": "⚖️",
+    "eyecatch_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "デジタルバイオロジー×R言語：予測モデリングと時系列解析でライフサイエンスの新時代へ",
@@ -33,7 +35,8 @@
     "blog_short": "統計",
     "category": "臨床統計・解析",
     "color": "#059669",
-    "icon": "📈"
+    "icon": "📈",
+    "eyecatch_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "AIとPV最新技術：安全性監視・シグナル検出の未来",
@@ -45,7 +48,8 @@
     "blog_short": "PV",
     "category": "ファーマコビジランス",
     "color": "#7c3aed",
-    "icon": "🛡️"
+    "icon": "🛡️",
+    "eyecatch_url": "https://images.unsplash.com/photo-1578496479914-7ef3b0193be3?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "GAMP5 CSAで加速！製薬DXの新バリデーション戦略",
@@ -57,7 +61,8 @@
     "blog_short": "DX",
     "category": "製薬DX",
     "color": "#ea580c",
-    "icon": "🤖"
+    "icon": "🤖",
+    "eyecatch_url": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "AI創薬と生成AI最前線：日本の製薬DXを加速",
@@ -69,7 +74,8 @@
     "blog_short": "DX",
     "category": "製薬DX",
     "color": "#ea580c",
-    "icon": "🤖"
+    "icon": "🤖",
+    "eyecatch_url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "「生成AI創薬」最前線：新薬開発を加速する秘訣",
@@ -81,7 +87,8 @@
     "blog_short": "DX",
     "category": "製薬DX",
     "color": "#ea580c",
-    "icon": "🤖"
+    "icon": "🤖",
+    "eyecatch_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=630&fit=crop&auto=format&q=80"
   },
   {
     "title": "生成AI創薬最前線：新薬開発を加速する最新動向",
@@ -93,6 +100,7 @@
     "blog_short": "DX",
     "category": "製薬DX",
     "color": "#ea580c",
-    "icon": "🤖"
+    "icon": "🤖",
+    "eyecatch_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&h=630&fit=crop&auto=format&q=80"
   }
 ]
