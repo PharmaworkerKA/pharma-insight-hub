@@ -6,9 +6,9 @@ SITE_DESCRIPTION = (
     "CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。"
     "製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。"
 )
-SITE_URL = "https://musclelove-777.github.io/pharma-insight-hub"
+SITE_URL = "https://pharmaworkerka.github.io/pharma-insight-hub"
 SITE_LANGUAGE = "ja"
-GITHUB_REPO = "MuscleLove-777/pharma-insight-hub"
+GITHUB_REPO = "PharmaworkerKA/pharma-insight-hub"
 
 # YouTube（将来的に追加）
 YOUTUBE_CHANNEL_URL = ""
@@ -22,8 +22,8 @@ BLOGS = [
     {
         "name": "CDISC Standards Navigator",
         "short_name": "CDISC",
-        "url": "https://musclelove-777.github.io/cdisc-navigator",
-        "feed_url": "https://musclelove-777.github.io/cdisc-navigator/feed.xml",
+        "url": "https://pharmaworkerka.github.io/cdisc-navigator",
+        "feed_url": "https://pharmaworkerka.github.io/cdisc-navigator/feed.xml",
         "description": "SDTM・ADaM・Define-XMLなどCDISC標準規格の実践ガイド",
         "category": "CDISC・データ標準",
         "icon": "📊",
@@ -32,8 +32,8 @@ BLOGS = [
     {
         "name": "FDA規制インサイト",
         "short_name": "FDA",
-        "url": "https://musclelove-777.github.io/fda-insight",
-        "feed_url": "https://musclelove-777.github.io/fda-insight/feed.xml",
+        "url": "https://pharmaworkerka.github.io/fda-insight",
+        "feed_url": "https://pharmaworkerka.github.io/fda-insight/feed.xml",
         "description": "FDA規制動向・ガイダンス・承認プロセスの最新情報",
         "category": "FDA・薬事規制",
         "icon": "⚖️",
@@ -42,8 +42,8 @@ BLOGS = [
     {
         "name": "臨床統計ラボ",
         "short_name": "統計",
-        "url": "https://musclelove-777.github.io/clinical-stats-lab",
-        "feed_url": "https://musclelove-777.github.io/clinical-stats-lab/feed.xml",
+        "url": "https://pharmaworkerka.github.io/clinical-stats-lab",
+        "feed_url": "https://pharmaworkerka.github.io/clinical-stats-lab/feed.xml",
         "description": "統計解析手法・SAS/Rプログラミングの実務テクニック",
         "category": "臨床統計・解析",
         "icon": "📈",
@@ -52,8 +52,8 @@ BLOGS = [
     {
         "name": "ファーマコビジランス最前線",
         "short_name": "PV",
-        "url": "https://musclelove-777.github.io/pv-frontline",
-        "feed_url": "https://musclelove-777.github.io/pv-frontline/feed.xml",
+        "url": "https://pharmaworkerka.github.io/pv-frontline",
+        "feed_url": "https://pharmaworkerka.github.io/pv-frontline/feed.xml",
         "description": "安全性情報管理・副作用報告・シグナル検出の専門情報",
         "category": "ファーマコビジランス",
         "icon": "🛡️",
@@ -62,8 +62,8 @@ BLOGS = [
     {
         "name": "製薬DXジャーナル",
         "short_name": "DX",
-        "url": "https://musclelove-777.github.io/pharma-dx-journal",
-        "feed_url": "https://musclelove-777.github.io/pharma-dx-journal/feed.xml",
+        "url": "https://pharmaworkerka.github.io/pharma-dx-journal",
+        "feed_url": "https://pharmaworkerka.github.io/pharma-dx-journal/feed.xml",
         "description": "AI創薬・デジタル治験・RWDのDXトレンド最新情報",
         "category": "製薬DX",
         "icon": "🤖",
