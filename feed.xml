@@ -5,37 +5,25 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Apr 2026 06:57:22 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 06:13:45 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>ICH E6(R3) Principles徹底解説！GCP改訂の全貌と実務対応</title>
-      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</link>
-      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</guid>
+      <title>ICH-GCP E6(R3)の変更点を徹底解説！実務への影響と対応</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-change-points.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-change-points.html</guid>
       <category>GCP・治験実務</category>
     </item>
     <item>
-      <title>PMDA/FDA承認審査：臨床データ提出の規制要件を徹底解説</title>
-      <link>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</link>
-      <guid>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</guid>
-      <category>CDISC・データ標準</category>
+      <title>ICH-GCP E6(R3)品質マネジメント実践ガイド</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-quality-management-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-quality-management-guide.html</guid>
+      <category>GCP・治験実務</category>
     </item>
     <item>
-      <title>Cytokineticsの心臓病治療薬に学ぶ！FDA承認と新薬申請の全貌</title>
-      <link>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</link>
-      <guid>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</guid>
-      <category>FDA・薬事規制</category>
-    </item>
-    <item>
-      <title>デジタルバイオロジー×R言語：予測モデリングと時系列解析でライフサイエンスの新時代へ</title>
-      <link>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</link>
-      <guid>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</guid>
-      <category>臨床統計・解析</category>
-    </item>
-    <item>
-      <title>AIとPV最新技術：安全性監視・シグナル検出の未来</title>
-      <link>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</link>
-      <guid>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</guid>
-      <category>ファーマコビジランス</category>
+      <title>ICH-GCP E6(R3)徹底解説：臨床試験の未来と実務対応</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6-r3-expert-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6-r3-expert-guide.html</guid>
+      <category>GCP・治験実務</category>
     </item>
     <item>
       <title>オンコロジー用量設定：MIDDと規制科学最前線</title>
@@ -78,6 +66,66 @@
       <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/gamp5-second-edition-pharma-csv-strategy.html</link>
       <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/gamp5-second-edition-pharma-csv-strategy.html</guid>
       <category>製薬DX</category>
+    </item>
+    <item>
+      <title>MIDDとオンコロジー用量選択：FDA規制科学の最前線</title>
+      <link>https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html</link>
+      <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/middfda.html</guid>
+      <category>CDISC・データ標準</category>
+    </item>
+    <item>
+      <title>FDA承認と新薬開発：Cytokinetics事例で学ぶ医薬品承認プロセス</title>
+      <link>https://pharmaworkerka.github.io/fda-insight/articles/fda-approval-new-drug-development-cytokinetics-process.html</link>
+      <guid>https://pharmaworkerka.github.io/fda-insight/articles/fda-approval-new-drug-development-cytokinetics-process.html</guid>
+      <category>FDA・薬事規制</category>
+    </item>
+    <item>
+      <title>R for Clinical Trials: admiralとADaMで臨床試験データ解析を加速</title>
+      <link>https://pharmaworkerka.github.io/clinical-stats-lab/articles/r-clinical-trials-admiral-adam.html</link>
+      <guid>https://pharmaworkerka.github.io/clinical-stats-lab/articles/r-clinical-trials-admiral-adam.html</guid>
+      <category>臨床統計・解析</category>
+    </item>
+    <item>
+      <title>帯状疱疹ワクチンとギラン・バレー症候群：副作用シグナル検出の最前線</title>
+      <link>https://pharmaworkerka.github.io/pv-frontline/articles/herpes-zoster-vaccine-gbs-signal-detection.html</link>
+      <guid>https://pharmaworkerka.github.io/pv-frontline/articles/herpes-zoster-vaccine-gbs-signal-detection.html</guid>
+      <category>ファーマコビジランス</category>
+    </item>
+    <item>
+      <title>生成AI創薬が製薬を変える！最新技術と導入戦略</title>
+      <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</link>
+      <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</guid>
+      <category>製薬DX</category>
+    </item>
+    <item>
+      <title>ICH E6(R3) Principles徹底解説！GCP改訂の全貌と実務対応</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
+    <item>
+      <title>PMDA/FDA承認審査：臨床データ提出の規制要件を徹底解説</title>
+      <link>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</link>
+      <guid>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</guid>
+      <category>CDISC・データ標準</category>
+    </item>
+    <item>
+      <title>Cytokineticsの心臓病治療薬に学ぶ！FDA承認と新薬申請の全貌</title>
+      <link>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</link>
+      <guid>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</guid>
+      <category>FDA・薬事規制</category>
+    </item>
+    <item>
+      <title>デジタルバイオロジー×R言語：予測モデリングと時系列解析でライフサイエンスの新時代へ</title>
+      <link>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</link>
+      <guid>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</guid>
+      <category>臨床統計・解析</category>
+    </item>
+    <item>
+      <title>AIとPV最新技術：安全性監視・シグナル検出の未来</title>
+      <link>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</link>
+      <guid>https://musclelove-777.github.io/pv-frontline/articles/ai-pharmacovigilance-safety-surveillance-signal-detection-latest-technology.html</guid>
+      <category>ファーマコビジランス</category>
     </item>
     <item>
       <title>GAMP5 CSAで加速！製薬DXの新バリデーション戦略</title>
