@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 05 Apr 2026 06:13:45 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 06:53:39 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ICH E6(R3)改訂速報！臨床試験の未来を読み解く実務ガイド</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-practical-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-practical-guide.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>ICH-GCP E6(R3)の変更点を徹底解説！実務への影響と対応</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-change-points.html</link>
@@ -95,6 +101,36 @@
       <title>生成AI創薬が製薬を変える！最新技術と導入戦略</title>
       <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</link>
       <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</guid>
+      <category>製薬DX</category>
+    </item>
+    <item>
+      <title>PKデータ申請の鍵：SDTM/ADaMでワークフロー改善！</title>
+      <link>https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html</link>
+      <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/pksdtmadam.html</guid>
+      <category>CDISC・データ標準</category>
+    </item>
+    <item>
+      <title>Cytokinetics社の心臓病薬、FDA承認プロセス解説！新薬申請と最新ニュース</title>
+      <link>https://pharmaworkerka.github.io/fda-insight/articles/cytokinetics-fda-approval-process-latest-news.html</link>
+      <guid>https://pharmaworkerka.github.io/fda-insight/articles/cytokinetics-fda-approval-process-latest-news.html</guid>
+      <category>FDA・薬事規制</category>
+    </item>
+    <item>
+      <title>admiral RでADaM作成！臨床試験プログラマーのAI活用術</title>
+      <link>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-adam-clinical-trials-ai-programmer.html</link>
+      <guid>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-adam-clinical-trials-ai-programmer.html</guid>
+      <category>臨床統計・解析</category>
+    </item>
+    <item>
+      <title>ICSR作成と副作用報告の実務ガイド：E2B(R3)時代のファーマコビジランス</title>
+      <link>https://pharmaworkerka.github.io/pv-frontline/articles/icsr-sakusei-fukusayou-houkoku-e2b-r3-pharmacovigilance.html</link>
+      <guid>https://pharmaworkerka.github.io/pv-frontline/articles/icsr-sakusei-fukusayou-houkoku-e2b-r3-pharmacovigilance.html</guid>
+      <category>ファーマコビジランス</category>
+    </item>
+    <item>
+      <title>AI創薬と生成AI最前線：新薬開発を加速する未来戦略</title>
+      <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai.html</link>
+      <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai.html</guid>
       <category>製薬DX</category>
     </item>
     <item>
