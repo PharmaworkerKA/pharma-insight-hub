@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Apr 2026 06:18:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 06:20:15 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ICH E6(R3) 改訂：CRA・CRC必見！実務影響と対応ガイド</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-gcp-revision-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-gcp-revision-guide.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>ICH E6(R3)最終化：臨床試験の未来と実務対応【GCPガイドライン改訂】</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6r3-finalization-clinical-trial-guide.html</link>
@@ -164,27 +170,21 @@
       <category>ファーマコビジランス</category>
     </item>
     <item>
-      <title>ICH E6(R3) Principles徹底解説！GCP改訂の全貌と実務対応</title>
-      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</link>
-      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-principles-gcp-kaitei-practical.html</guid>
-      <category>GCP・治験実務</category>
-    </item>
-    <item>
-      <title>PMDA/FDA承認審査：臨床データ提出の規制要件を徹底解説</title>
-      <link>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</link>
-      <guid>https://musclelove-777.github.io/cdisc-navigator/articles/pmda-fda-clinical-data-submission-requirements.html</guid>
+      <title>MIDDで癌治療の用量選択を最適化：規制当局と臨床データ活用の最新動向</title>
+      <link>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html</link>
+      <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html</guid>
       <category>CDISC・データ標準</category>
     </item>
     <item>
-      <title>Cytokineticsの心臓病治療薬に学ぶ！FDA承認と新薬申請の全貌</title>
-      <link>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</link>
-      <guid>https://musclelove-777.github.io/fda-insight/articles/cytokinetics-fda-shounin-shinyaku-shinsei-process.html</guid>
+      <title>FDAガイダンス：臨床試験の安全性報告と薬事申請</title>
+      <link>https://pharmaworkerka.github.io/fda-insight/articles/fda-guidance-clinical-trial-safety-reporting.html</link>
+      <guid>https://pharmaworkerka.github.io/fda-insight/articles/fda-guidance-clinical-trial-safety-reporting.html</guid>
       <category>FDA・薬事規制</category>
     </item>
     <item>
-      <title>デジタルバイオロジー×R言語：予測モデリングと時系列解析でライフサイエンスの新時代へ</title>
-      <link>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</link>
-      <guid>https://musclelove-777.github.io/clinical-stats-lab/articles/digital-biology-r-language-predictive-time-series-analysis.html</guid>
+      <title>admiralとRで臨床試験を加速！ADaM自動生成とAI活用の新時代</title>
+      <link>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-clinical-trials-adam-ai.html</link>
+      <guid>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-clinical-trials-adam-ai.html</guid>
       <category>臨床統計・解析</category>
     </item>
   </channel>
