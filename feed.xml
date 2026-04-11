@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Apr 2026 06:52:24 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 05:59:59 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>【速報】ICH E6(R3) 改訂の全て！CRA/CRC向け実務解説</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-expert-guide-cra-crc.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-expert-guide-cra-crc.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>【CRA/CRC必見】ICH-GCP E6(R3)改訂を徹底解説！実務への影響と対応</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6-r3-kaiten-taisaku.html</link>
@@ -122,7 +128,7 @@
       <category>ファーマコビジランス</category>
     </item>
     <item>
-      <title>生成AI創薬が製薬を変える！最新技術と導入戦略</title>
+      <title>生成AI創薬が製薬DXを加速！最新動向と導入の鍵</title>
       <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</link>
       <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/generative-ai-drug-discovery-pharma-dx.html</guid>
       <category>製薬DX</category>
@@ -180,12 +186,6 @@
       <link>https://pharmaworkerka.github.io/pv-frontline/articles/signal-detection-pv-regulation-statistical-methods.html</link>
       <guid>https://pharmaworkerka.github.io/pv-frontline/articles/signal-detection-pv-regulation-statistical-methods.html</guid>
       <category>ファーマコビジランス</category>
-    </item>
-    <item>
-      <title>MIDDで癌治療の用量選択を最適化：規制当局と臨床データ活用の最新動向</title>
-      <link>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html</link>
-      <guid>https://pharmaworkerka.github.io/cdisc-navigator/articles/midd-cancer-dose-selection-regulatory-cdisc.html</guid>
-      <category>CDISC・データ標準</category>
     </item>
   </channel>
 </rss>
