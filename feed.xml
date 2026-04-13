@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Apr 2026 06:22:54 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 07:13:05 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ICH-GCP E6(R3) 変更点速報！CRA/CRC実務対応ガイド</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-henkouten-cra-crc-jitsumu-taiou.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-henkouten-cra-crc-jitsumu-taiou.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>【速報】ICH E6(R3) 改訂の全て！CRA/CRC向け実務解説</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-e6-r3-expert-guide-cra-crc.html</link>
@@ -180,12 +186,6 @@
       <link>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-clinical-trials-adam-sdm-ai-efficiency.html</link>
       <guid>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-clinical-trials-adam-sdm-ai-efficiency.html</guid>
       <category>臨床統計・解析</category>
-    </item>
-    <item>
-      <title>シグナル検出最前線：PV規制と副作用速報の統計手法</title>
-      <link>https://pharmaworkerka.github.io/pv-frontline/articles/signal-detection-pv-regulation-statistical-methods.html</link>
-      <guid>https://pharmaworkerka.github.io/pv-frontline/articles/signal-detection-pv-regulation-statistical-methods.html</guid>
-      <category>ファーマコビジランス</category>
     </item>
   </channel>
 </rss>
