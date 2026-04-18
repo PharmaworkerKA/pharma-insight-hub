@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2026 06:57:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 06:12:49 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ICH-GCP E6(R3)徹底解説！CRA・CRC必見の実務対応ガイド</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-expert-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-expert-guide.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>ICH-GCP E6(R3)改訂を徹底解説！臨床試験の実務変更点とは？</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6-r3-kaittei-jitsumu-henkouten.html</link>
@@ -180,12 +186,6 @@
       <link>https://pharmaworkerka.github.io/pv-frontline/articles/icsr-sakusei-fukusayou-houkoku-e2b-r3-pharmacovigilance.html</link>
       <guid>https://pharmaworkerka.github.io/pv-frontline/articles/icsr-sakusei-fukusayou-houkoku-e2b-r3-pharmacovigilance.html</guid>
       <category>ファーマコビジランス</category>
-    </item>
-    <item>
-      <title>AI創薬と生成AI：未踏の医薬品開発を切り拓く</title>
-      <link>https://pharmaworkerka.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai.html</link>
-      <guid>https://pharmaworkerka.github.io/pharma-dx-journal/articles/ai-drug-discovery-generative-ai.html</guid>
-      <category>製薬DX</category>
     </item>
   </channel>
 </rss>
