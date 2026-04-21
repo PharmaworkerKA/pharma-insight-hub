@@ -5,8 +5,14 @@
     <link>https://pharmaworkerka.github.io/pharma-insight-hub</link>
     <description>CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。製薬・臨床開発のプロフェッショナルのための総合ナレッジベース。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 20 Apr 2026 07:15:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 06:57:54 +0900</lastBuildDate>
     <atom:link href="https://pharmaworkerka.github.io/pharma-insight-hub/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ICH-GCP E6(R3)徹底解説！改訂と実務対応</title>
+      <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-practical-guide.html</link>
+      <guid>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-practical-guide.html</guid>
+      <category>GCP・治験実務</category>
+    </item>
     <item>
       <title>ICH-GCP E6(R3) 改訂を徹底解説！臨床試験の実務変更点と対応</title>
       <link>https://pharmaworkerka.github.io/gcp-navi/articles/ich-gcp-e6r3-kaitei-clinical-trial-changes.html</link>
@@ -180,12 +186,6 @@
       <link>https://pharmaworkerka.github.io/fda-insight/articles/cytokinetics-fda-approval-process-latest-news.html</link>
       <guid>https://pharmaworkerka.github.io/fda-insight/articles/cytokinetics-fda-approval-process-latest-news.html</guid>
       <category>FDA・薬事規制</category>
-    </item>
-    <item>
-      <title>admiral RでADaM作成！臨床試験プログラマーのAI活用術</title>
-      <link>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-adam-clinical-trials-ai-programmer.html</link>
-      <guid>https://pharmaworkerka.github.io/clinical-stats-lab/articles/admiral-r-adam-clinical-trials-ai-programmer.html</guid>
-      <category>臨床統計・解析</category>
     </item>
   </channel>
 </rss>
