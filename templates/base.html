@@ -21,8 +21,9 @@
 <meta name="twitter:title" content="{% block tw_title %}{{ site.name }}{% endblock %}">
 <meta name="twitter:description" content="{% block tw_description %}{{ site.description }}{% endblock %}">
 
-<!-- JSON-LD -->
+<!-- JSON-LD __PHARMA_JSONLD__ -->
 {% block jsonld %}
+<!-- __PHARMA_JSONLD__START__ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -34,10 +35,35 @@
   "inLanguage": "ja",
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.name }}"
+    "name": "PharmaworkerKA Network",
+    "url": "https://pharmaworkerka.github.io/"
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PharmaworkerKA Network",
+  "url": "https://pharmaworkerka.github.io/",
+  "description": "製薬・臨床開発・規制関連情報を発信するPharmaworkerKAネットワーク。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ site.name }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "inLanguage": "ja",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+<!-- __PHARMA_JSONLD__END__ -->
 {% endblock %}
 
 {% if site.ga_id %}
