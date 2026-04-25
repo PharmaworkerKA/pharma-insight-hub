@@ -4,6 +4,7 @@
 {% block meta_description %}製薬・臨床開発に特化した5つの専門ブログの記事を集約。CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。{% endblock %}
 
 {% block jsonld %}
+<!-- __PHARMA_JSONLD__START__ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -15,14 +16,34 @@
   "inLanguage": "ja",
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.name }}",
-    "url": "{{ site.url }}"
+    "name": "PharmaworkerKA Network",
+    "url": "https://pharmaworkerka.github.io/"
   },
   "potentialAction": {
     "@type": "SearchAction",
     "target": "{{ site.url }}/articles.html?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PharmaworkerKA Network",
+  "url": "https://pharmaworkerka.github.io/",
+  "description": "製薬・臨床開発・規制関連情報を発信するPharmaworkerKAネットワーク。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ site.name }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "inLanguage": "ja",
+  "isPartOf": {"@type": "WebSite", "url": "{{ site.url }}"}
 }
 </script>
 <script type="application/ld+json">
@@ -42,6 +63,7 @@
   ]
 }
 </script>
+<!-- __PHARMA_JSONLD__END__ -->
 {% endblock %}
 
 {% block content %}
