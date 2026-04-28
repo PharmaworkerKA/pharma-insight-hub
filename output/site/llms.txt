@@ -1,0 +1,23 @@
+# PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報
+
+> 製薬・臨床開発に特化した5つの専門ブログの記事を集約。CDISC、FDA規制、臨床統計、ファーマコビジランス、製薬DXの最新情報を毎日配信。
+
+## Main Pages
+
+- [pharma insight hub](https://pharmaworkerka.github.io/pharma-insight-hub/): main page of PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [articles.html](https://pharmaworkerka.github.io/pharma-insight-hub/articles.html): main page of PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [youtube.html](https://pharmaworkerka.github.io/pharma-insight-hub/youtube.html): main page of PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+
+## Articles (most recent)
+
+- [cdisc.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/cdisc.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [gcp.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/gcp.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [fda.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/fda.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [統計.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/統計.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [pv.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/pv.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+- [dx.html](https://pharmaworkerka.github.io/pharma-insight-hub/category/dx.html): article on PharmaPedia Japan | 製薬・臨床開発の総合メディア - CDISC・FDA・統計・PV・DXの最新情報.
+
+## About this file
+
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/pharma-insight-hub
