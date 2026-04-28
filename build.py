@@ -21,6 +21,8 @@ BASE_DIR = Path(__file__).parent
 TEMPLATE_DIR = BASE_DIR / "templates"
 OUTPUT_DIR = BASE_DIR / "site"
 CACHE_DIR = BASE_DIR / "cache"
+STATIC_ARTICLES_DIR = BASE_DIR / "static_articles"
+STATIC_ARTICLES_JSON = BASE_DIR / "static_articles.json"
 
 
 def fetch_articles():
@@ -102,6 +104,20 @@ def save_cache(articles):
         a_copy = dict(article)
         a_copy["date"] = a_copy["date"].isoformat()
         existing[article["link"]] = a_copy
+
+    # static_articles.json があれば、ハブ独自記事もマージ（日次ビルドで消えない）
+    if STATIC_ARTICLES_JSON.exists():
+        try:
+            with open(STATIC_ARTICLES_JSON, "r", encoding="utf-8") as f:
+                static_list = json.load(f)
+            for sa in static_list:
+                # date が無ければ now、ある場合は文字列のまま保持
+                if "date" not in sa or not sa["date"]:
+                    sa["date"] = datetime.now().isoformat()
+                existing[sa["link"]] = sa
+            print(f"  static_articles.json から {len(static_list)} 件マージ")
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"  [警告] static_articles.json 読み込み失敗: {e}")
 
     merged = sorted(existing.values(), key=lambda a: a["date"], reverse=True)
 
@@ -207,6 +223,17 @@ def build_site(all_articles):
 
     # 7. RSS
     generate_rss(all_articles)
+
+    # 8. static_articles ディレクトリを site/articles へコピー（ハブ独自記事を維持）
+    if STATIC_ARTICLES_DIR.exists():
+        target = OUTPUT_DIR / "articles"
+        target.mkdir(parents=True, exist_ok=True)
+        copied = 0
+        for src in STATIC_ARTICLES_DIR.glob("*.html"):
+            shutil.copy2(src, target / src.name)
+            copied += 1
+        if copied:
+            print(f"  static_articles/ から {copied} 件コピー -> site/articles/")
 
     print(f"\n[ビルド完了] {OUTPUT_DIR}")
 
