@@ -46,6 +46,17 @@ jobs:
           git diff --staged --quiet || git commit -m "cache: 記事キャッシュ更新 $(date '+%Y-%m-%d')"
           git push
 
+      - name: Inject llms.txt into site output
+        if: always()
+        run: |
+          if [ -f static_assets/llms.txt ]; then
+            mkdir -p site
+            cp static_assets/llms.txt site/llms.txt
+            echo "Injected static_assets/llms.txt -> site/llms.txt"
+          else
+            echo "No static_assets/llms.txt; skipping"
+          fi
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
