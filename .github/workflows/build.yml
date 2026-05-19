@@ -1,6 +1,9 @@
 name: PharmaPedia Japan - Build & Deploy
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 毎日 JST 14:00 (UTC 5:00) - 各ブログの更新後に実行
     - cron: '0 5 * * *'
